@@ -1,0 +1,21 @@
+* { 
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex; 
+    justify-content: center;
+} 
+
+#container { 
+    border : solid black 2px; 
+    width: 604px;
+    height: 604px;
+}
+
+.grid {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0;
+}
