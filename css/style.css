@@ -3,19 +3,23 @@
 }
 
 body { 
-    display: flex; 
-    justify-content: center;
-} 
-
-#container { 
-    border : solid black 2px; 
-    width: 604px;
-    height: 604px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
-.grid {
-    width: 150px;
-    height: 150px;
-    float: left;
-    margin: 0;
+#container { 
+    box-sizing: content-box;
+    width: 960px;
+    height: 960px;
+    max-width: 960px;
+    max-height: 960px;
+    border: dashed black 1px;
+}
+
+button { 
+    width: 90px;
+    height: auto;
+    margin: 1%;
 }
